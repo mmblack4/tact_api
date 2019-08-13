@@ -1,0 +1,29 @@
+- User registration
+    - userid (primary key) - sample: 1002
+    - username (unique) - sample: david
+    - email (unique)
+    - linkedin_link (unique)
+    - phone_number
+    - github_link
+    - gitlab_link
+    - bitbucket_link
+    - full_name
+    - password
+    - location
+- Get user details by userid
+- Get user details by username
+- Get user details by email
+- Get user details by linked_link
+- User Role
+    - Developer, Admin
+- Get developers API
+- Get admins API
+- Admin should be able to give tokens (TK) to user
+- User should be able to check his tokens
+- Admin should be able to create challenge events
+- User should be able to see the challenge events
+- User should be able to engage the challenge by paying tokens (TK)
+- Winner will get more tokens
+- Bi weekly admin will select 1 winner (from the previous events) and convert their tokens to gift cards
+     - worth of 500 to 5000
+- 1INR - 50 tokens (50 TK)
